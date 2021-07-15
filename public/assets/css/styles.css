@@ -1,7 +1,15 @@
 body {
   font-size: 120%;
   font-family: Arial;
+    /* Nicole's customization - image from pexels.com, no attribution required */
+    /* background-image: url(../images/lakehouse.png);
+    height: 600px;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;   */
 }
+/* IMAGE CREDIT: Lakehouse Image by <a href="https://pixabay.com/users/emmanuelmendez-10249542/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3749762">Emmanuel Mendez</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3749762">Pixabay</a> */
+
 
 button, input {
   font-size: 100%;
@@ -10,16 +18,21 @@ button, input {
 
 table {
   width: 100%;
+
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 1px solid #130242;
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #faccad;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(250, 229, 222);
 }
 
 .error {
@@ -49,3 +62,4 @@ tr:nth-child(even) {
   width: 90%;
   margin: 0 auto;
 }
+
