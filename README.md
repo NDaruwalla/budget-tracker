@@ -60,8 +60,11 @@
   ## Key Features 
     The key features of this application include:
 
-    * here
-
+    * buttons to add and subtract funds from total
+    * graph visualization of total funds over time
+    * download enabled for offline use
+    * automatically updates offline data when user returns online
+    
 
   ## Tools
   The tools used to create this application include: HTML, CSS, JavaScript, Indexed DB, Mongo DB, mongoose, Node, Dotenv, Express, Heroku, Github, Git Bash, and Visual Studio Code.
@@ -97,6 +100,9 @@
   The following references were used to create this application:
 
   - Assignment Readme
+  - https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
+  - https://www.youtube.com/watch?v=g4U5WRzHitM
+  - https://www.youtube.com/watch?v=vb7fkBeblcw&t=1342s
   - https://docs.npmjs.com/
   - https://docs.mongodb.com/guides/
   - https://mongoosejs.com/docs/
